@@ -2,7 +2,7 @@
   "meta": {
     "theme.name": "Deep Space Twilight",
     "theme.kind": "Dark",
-    "theme.version": 8
+    "theme.version": 9
   },
   "colors": {
     "text.dangerous": "#ff6b6b",
@@ -517,18 +517,18 @@
   },
   "textAttributes": {
     "editor.text.scheme": {
-      "foregroundColor": "#e0e0ff"
+      "foregroundColor": "#f0f0ff"
     },
     "editor.text.composable": {
       "textDecoration": {
-        "color": "#e0e0ff"
+        "color": "#f0f0ff"
       }
     },
     "editor.selection": {
       "backgroundColor": "#4d4d80"
     },
     "editor.selection.focused": {
-      "backgroundColor": "#2e4d66"
+      "backgroundColor": "#3d5c8c"
     },
     "editor.search.results": {
       "backgroundColor": "#4d3a1a",
@@ -539,507 +539,155 @@
     },
     "editor.rename.current": {
       "border": {
-        "color": "#5c5c99"
+        "color": "#7c7ccc"
       }
     },
     "editor.brace.match": {
       "backgroundColor": "#1a3d4d"
     },
     "comment": {
-      "foregroundColor": "#b0b0cc"
+      "foregroundColor": "#7a7a9f"
     },
     "comment.doc": {
-      "foregroundColor": "#b0b0cc"
+      "foregroundColor": "#8a8ab0"
     },
     "comment.doc.tag": {
-      "foregroundColor": "#82d2ce"
+      "foregroundColor": "#66d9e8"
     },
     "comment.doc.value": {
-      "foregroundColor": "#e0e0ff"
+      "foregroundColor": "#b8b8e6"
     },
     "comment.todo": {
       "foregroundColor": "#66ff9d"
     },
-    "link": {},
-    "link.always.visible": {
-      "textDecoration": {}
-    },
-    "link.hovered": {
-      "foregroundColor": "#a3a3ff",
-      "textDecoration": {
-        "color": "#a3a3ff"
-      }
-    },
-    "error.hovered": {
-      "backgroundColor": "#4d1a1a"
-    },
     "keyword": {
-      "foregroundColor": "#82d2ce"
+      "foregroundColor": "#ff79c6"
     },
     "keyword.typeModifier": {
-      "foregroundColor": "#82d2ce"
+      "foregroundColor": "#ff79c6"
     },
     "metadata": {
-      "foregroundColor": "#a8cc7c"
+      "foregroundColor": "#50fa7b"
     },
     "number": {
-      "foregroundColor": "#ebc88d"
+      "foregroundColor": "#bd93f9"
     },
     "boolean": {
-      "foregroundColor": "#82d2ce"
+      "foregroundColor": "#bd93f9"
     },
     "string": {
-      "foregroundColor": "#e394dc"
+      "foregroundColor": "#f1fa8c"
     },
     "string.binary": {
-      "foregroundColor": "#a8cc7c"
+      "foregroundColor": "#8be9fd"
     },
     "string.escape": {
-      "foregroundColor": "#82d2ce"
+      "foregroundColor": "#ff79c6"
     },
     "string.escape.unicode": {
-      "foregroundColor": "#ebc88d"
+      "foregroundColor": "#ff79c6"
     },
     "string.escape.alternative": {
-      "foregroundColor": "#af9cff"
+      "foregroundColor": "#ff79c6"
     },
     "string.formatItem": {
-      "foregroundColor": "#ebc88d"
+      "foregroundColor": "#8be9fd"
     },
     "string.regexp": {
-      "foregroundColor": "#82d2ce"
+      "foregroundColor": "#8be9fd"
     },
     "identifier": {
-      "foregroundColor": "#e0e0ff"
+      "foregroundColor": "#f8f8f2"
     },
     "identifier.this": {
-      "foregroundColor": "#cc7c8a"
+      "foregroundColor": "#ff79c6"
     },
     "identifier.this.mutable": {
-      "foregroundColor": "#cc7c8a",
+      "foregroundColor": "#ff79c6",
       "textDecoration": {
-        "color": "#cc7c8a"
+        "color": "#ff79c6"
       }
     },
-    "identifier.underCaret": {
-      "backgroundColor": "#e0e0ff1a",
-      "statusColor": "#1a5c5c"
-    },
     "identifier.constant": {
-      "foregroundColor": "#af9cff"
+      "foregroundColor": "#bd93f9"
     },
     "identifier.constant.predefined": {
-      "foregroundColor": "#82d2ce"
+      "foregroundColor": "#bd93f9"
     },
     "identifier.variable": {
-      "foregroundColor": "#e0e0ff"
+      "foregroundColor": "#f8f8f2"
     },
     "identifier.variable.mutable": {
       "textDecoration": {
-        "color": "#6a6a7e"
+        "color": "#6272a4"
       }
     },
     "identifier.parameter": {
-      "foregroundColor": "#e0e0ff"
+      "foregroundColor": "#ffb86c"
     },
     "identifier.parameter.js": {
-      "foregroundColor": "#a8cc7c"
+      "foregroundColor": "#ffb86c"
     },
     "identifier.function.declaration": {
-      "foregroundColor": "#ffffff",
+      "foregroundColor": "#50fa7b",
       "fontWeight": "SEMI_BOLD"
     },
     "identifier.function.declaration.js": {
-      "foregroundColor": "#ebc88d",
+      "foregroundColor": "#50fa7b",
       "fontWeight": "SEMI_BOLD"
     },
     "identifier.function.call": {
-      "foregroundColor": "#ebc88d"
+      "foregroundColor": "#50fa7b"
     },
     "identifier.function.call.package": {
-      "foregroundColor": "#ebc88d"
+      "foregroundColor": "#50fa7b"
     },
     "identifier.function.call.composable": {
-      "foregroundColor": "#a8cc7c"
+      "foregroundColor": "#8be9fd"
     },
     "identifier.method.static": {
-      "foregroundColor": "#ebc88d",
+      "foregroundColor": "#50fa7b",
       "fontStyle": "ITALIC"
     },
     "identifier.type": {
-      "foregroundColor": "#87c3ff"
+      "foregroundColor": "#8be9fd"
     },
     "identifier.field": {
-      "foregroundColor": "#af9cff"
+      "foregroundColor": "#f8f8f2"
     },
     "identifier.field.static": {
-      "foregroundColor": "#af9cff",
+      "foregroundColor": "#bd93f9",
       "fontStyle": "ITALIC"
     },
     "identifier.interface": {
-      "foregroundColor": "#87c3ff"
+      "foregroundColor": "#8be9fd"
     },
     "identifier.type.class": {
-      "foregroundColor": "#87c3ff"
+      "foregroundColor": "#8be9fd"
     },
     "identifier.type.enum": {
-      "foregroundColor": "#87c3ff"
+      "foregroundColor": "#8be9fd"
     },
     "identifier.type.struct": {
-      "foregroundColor": "#87c3ff"
+      "foregroundColor": "#8be9fd"
     },
     "identifier.type.valueType": {
-      "foregroundColor": "#add1de"
+      "foregroundColor": "#8be9fd"
     },
     "identifier.typeParameter": {
-      "foregroundColor": "#add1de"
+      "foregroundColor": "#ffb86c"
     },
     "identifier.namedArgument": {
-      "foregroundColor": "#add1de"
+      "foregroundColor": "#ffb86c"
     },
     "identifier.other": {
-      "foregroundColor": "#87c3ff"
-    },
-    "attributeName.html": {
-      "foregroundColor": "#af9cff"
-    },
-    "attributeValue.html": {
-      "foregroundColor": "#e394dc"
-    },
-    "entityReference.html": {
-      "foregroundColor": "#e09b70"
-    },
-    "tag.html": {
-      "foregroundColor": "#b0b0cc"
-    },
-    "tagName.html": {
-      "foregroundColor": "#87c3ff"
-    },
-    "tagName.custom.html": {
-      "foregroundColor": "#e09b70"
-    },
-    "attributeName.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "hex.css": {
-      "foregroundColor": "#ebc88d"
-    },
-    "identifier.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "identifier.function.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "identifier.variable.css": {
-      "foregroundColor": "#87c3ff"
-    },
-    "interpolation.css": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "identifier.variable.php": {
-      "foregroundColor": "#add1de"
-    },
-    "property.php": {
-      "foregroundColor": "#af9cff"
-    },
-    "property.static.php": {
-      "foregroundColor": "#af9cff",
-      "fontStyle": "ITALIC"
-    },
-    "generic.php": {
-      "foregroundColor": "#ebc88d"
-    },
-    "jsCodeDelimiter.css": {
-      "foregroundColor": "#e394dc"
-    },
-    "jsCodeInjection.css": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "key.json": {
-      "foregroundColor": "#af9cff"
-    },
-    "keyword.css": {
-      "foregroundColor": "#a8cc7c"
-    },
-    "keyword.extend.css": {
-      "foregroundColor": "#a8cc7c"
-    },
-    "keyword.global.css": {
-      "foregroundColor": "#a8cc7c"
-    },
-    "keyword.important.css": {
-      "foregroundColor": "#a8cc7c"
-    },
-    "mixin.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "number.css": {
-      "foregroundColor": "#ebc88d"
-    },
-    "number.unit.css": {
-      "foregroundColor": "#ebc88d"
-    },
-    "propertyName.css": {
-      "foregroundColor": "#82d2ce"
-    },
-    "propertyValue.css": {
-      "foregroundColor": "#e394dc"
-    },
-    "punctuation.css": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "selector.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "selector.id.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "selector.class.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "selector.pseudo.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "selector.tag.css": {
-      "foregroundColor": "#af9cff"
-    },
-    "string.css": {
-      "foregroundColor": "#e394dc"
-    },
-    "url.css": {
-      "foregroundColor": "#add1de",
-      "textDecoration": {
-        "color": "#3d5c5c"
-      }
-    },
-    "attribute.cpp": {
-      "foregroundColor": "#cc7c8a"
-    },
-    "markup.heading": {
-      "foregroundColor": "#82d2ce",
-      "fontWeight": "BOLD"
-    },
-    "markup.bold": {
-      "fontWeight": "BOLD"
-    },
-    "markup.italic": {
-      "fontStyle": "ITALIC"
-    },
-    "markup.code.block": {
-      "foregroundColor": "#eb83e2"
-    },
-    "markup.href": {
-      "foregroundColor": "#e394dc",
-      "fontStyle": "ITALIC",
-      "textDecoration": {}
+      "foregroundColor": "#8be9fd"
     },
     "punctuation": {
-      "foregroundColor": "#e0e0ff"
+      "foregroundColor": "#f8f8f2"
     },
     "punctuation.operator": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "snippet": {
-      "border": {
-        "color": "#b0b0cc"
-      }
-    },
-    "snippet.selected": {
-      "border": {
-        "color": "#5c5c99"
-      }
-    },
-    "debug.currentFrame": {
-      "backgroundColor": "#0a3d3d"
-    },
-    "diff.added": {
-      "backgroundColor": "#0f2e1a"
-    },
-    "diff.added.word": {
-      "backgroundColor": "#164d29"
-    },
-    "diff.added.withBorder": {
-      "backgroundColor": "#0f2e1a",
-      "border": {
-        "color": "#1a4d29"
-      }
-    },
-    "diff.added.resolved": {
-      "backgroundColor": "Transparent",
-      "border": {
-        "color": "#1a4d29"
-      }
-    },
-    "diff.added.empty": {
-      "backgroundColor": "#1a4d29"
-    },
-    "diff.deleted": {
-      "backgroundColor": "#2e1a1a"
-    },
-    "diff.deleted.word": {
-      "backgroundColor": "#4d2929"
-    },
-    "diff.deleted.withBorder": {
-      "backgroundColor": "#2e1a1a",
-      "border": {
-        "color": "#4d2929"
-      }
-    },
-    "diff.deleted.resolved": {
-      "backgroundColor": "Transparent",
-      "border": {
-        "color": "#4d2929"
-      }
-    },
-    "diff.deleted.empty": {
-      "backgroundColor": "#803333"
-    },
-    "diff.modified": {
-      "backgroundColor": "#1a2e2e"
-    },
-    "diff.modified.word": {
-      "backgroundColor": "#1a3d4d"
-    },
-    "diff.modified.withBorder": {
-      "backgroundColor": "#1a2e2e",
-      "border": {
-        "color": "#2e4d4d"
-      }
-    },
-    "diff.modified.resolved": {
-      "backgroundColor": "Transparent",
-      "border": {
-        "color": "#2e4d4d"
-      }
-    },
-    "diff.conflict.withBorder": {
-      "backgroundColor": "#2e2e1a",
-      "border": {
-        "color": "#4d4d1a"
-      }
-    },
-    "diff.conflict.resolved": {
-      "backgroundColor": "Transparent",
-      "border": {
-        "color": "#4d4d1a"
-      }
-    },
-    "refactoring.modified.code": {
-      "backgroundColor": "#1a4d29"
-    },
-    "problem.error": {
-      "textDecoration": {
-        "color": "#ff4d4d",
-        "thickness": 2.0
-      }
-    },
-    "problem.error.badCharacter": {
-      "textDecoration": {
-        "color": "#ff4d4d",
-        "thickness": 2.0
-      }
-    },
-    "problem.warning": {
-      "textDecoration": {
-        "color": "#ffcc4d",
-        "thickness": 2.0
-      }
-    },
-    "problem.warning.weak": {
-      "textDecoration": {
-        "color": "#5c4d29",
-        "thickness": 2.0
-      }
-    },
-    "problem.deprecated": {
-      "textDecoration": {
-        "color": "#e0e0ff"
-      }
-    },
-    "problem.info": {
-      "textDecoration": {
-        "color": "#8c4dff"
-      }
-    },
-    "problem.unknown": {},
-    "problem.unused": {
-      "foregroundColor": "#9090a7"
-    },
-    "transparent": {},
-    "comment.buildConstraint.go": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "identifier.methodReceiver.go": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "identifier.package.go": {
-      "foregroundColor": "#a8cc7c"
-    },
-    "identifier.typeDeclaration.go": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "identifier.typeReference.go": {
-      "foregroundColor": "#87c3ff"
-    },
-    "identifier.variable.shadowing.go": {
-      "foregroundColor": "#e09b70"
-    },
-    "metadata.structTag.arbitraryText.go": {
-      "foregroundColor": "#b0b0cc"
-    },
-    "metadata.structTag.key.go": {
-      "foregroundColor": "#e0e0ff"
-    },
-    "metadata.structTag.value.go": {
-      "foregroundColor": "#e394dc"
-    },
-    "identifier.anchor.yaml": {
-      "foregroundColor": "#a8cc7c"
-    },
-    "identifier.alias.yaml": {
-      "foregroundColor": "#e09b70"
-    },
-    "punctuation.operator.merge.yaml": {
-      "foregroundColor": "#ebc88d"
-    },
-    "schema.yaml": {
-      "foregroundColor": "#cc7c8a"
-    },
-    "key.yaml": {
-      "foregroundColor": "#82d2ce"
-    },
-    "value.yaml": {
-      "foregroundColor": "#af9cff"
-    },
-    "ai.generated": {
-      "backgroundColor": "#1a1a2e"
-    },
-    "identifier.dependency.scope.amper": {
-      "foregroundColor": "#e09b70"
-    },
-    "identifier.dependency.annotator.amper": {
-      "foregroundColor": "#87c3ff"
-    },
-    "identifier.dependency.add.amper": {
-      "foregroundColor": "#a8cc7c"
-    },
-    "editor.indentGuide": {
-      "foregroundColor": "#333347",
-      "textDecoration": {
-        "style": "DASHED"
-      }
-    },
-    "editor.indentGuide.current": {
-      "foregroundColor": "#6a6a7e",
-      "textDecoration": {
-        "style": "DASHED"
-      }
-    },
-    "editor.indentGuide.declaration": {
-      "foregroundColor": "#3d3d66"
-    },
-    "editor.indentGuide.declaration.current": {
-      "foregroundColor": "#6a6a7e"
+      "foregroundColor": "#ff79c6"
     }
   },
   "palette": {
